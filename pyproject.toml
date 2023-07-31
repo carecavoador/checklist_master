@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "checklist-master"
+version = "0.1.0"
+description = ""
+authors = ["Everton de Souza <e.rodrigo@outlook.com>"]
+readme = "README.md"
+packages = [{include = "checklist_master"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+pyside6 = "^6.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
